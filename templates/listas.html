@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Listas</title>
+    </head>
+    <body style="background-color: yellowgreen;">
+        <h1 style="margin: 0;">Listas en HTML(HyperText Markup Language)</h1>
+        <p style="margin-top: 0;">Las listas se pueden usar para enumerar elementos o enlistarlos con viñeta. Hay 3 tipos y los veremos al avanzar con el documento.</p>
+        <h2 style="margin-bottom: 0;">Listas ordenadas</h2>
+        <p style="margin: 0;">Las listas ordenadas se caracterizan por su orden, y su etiqueta es ol por cada elemento de lista se debe añadir la etiqueta li. El atributo <strong> type </strong> especifica el tipo de numeración que se quiere usar.</p>
+        <h3 style="margin: 0;">Ejemplo</h3>
+        <ol style="margin-top: 0;">
+            <li style="color: red;">Primer elemento</li>
+            <li style="color: purple;">Segundo elemento</li>
+            <li style="color: brown;">Tercer elemento</li>
+            <li style="color: yellow;">Cuarto elemento</li>
+            <li style="color: gray;">
+                <ol type="a">
+                    <li>Otro primer elemento</li>
+                    <li>Otro segundo elemento.</li>
+                </ol>
+            </li>
+        </ol>
+        <h2 style="margin-bottom: 0;">Listas Desordenadas</h2>
+        <p style="margin: 0;">Son listas que no tienen orden, al igual que las listas ordenadas cada elemento debe estar dentro de la etiqueta <strong>li</strong> y este tipo de lista no tiene atributo <strong>type</strong> por lo cual se puede utilizar el atributo <strong>style</strong> pero ese atributo es mejor utilizarlo en un archivo aparte de <strong>CSS</strong> y mantener el orden de los archivos.</p>
+        <h3 style="margin: 0;">Ejemplo</h3>
+        <ul style="margin: 0;">
+            <li style="color: purple;">Café</li>
+            <li style="color: aqua;">Leche</li>
+            <li style="color: blue;">Pan</li>
+            <li style="color: white;">Huevos</li>
+            <li style="color: red;">Verduras
+                <ul>
+                    <li>Lechuga</li>
+                    <li>Tomate</li>
+                    <li>Cebolla</li>
+                </ul>
+            </li>
+        </ul>
+    </body>
+</html>
