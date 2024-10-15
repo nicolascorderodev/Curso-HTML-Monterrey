@@ -1,9 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Imágenes</title>
+        <title>Imágenes y videos</title>
     </head>
-    <body>
-        
+    <body style="background-color: black; color: white; text-align: center;">
+        <h1>Imágenes y videos en HTML(HyperText Markup Language)</h1>
+        <p>Las imágenes son parte esencial, <strong>HTML</strong> cuenta con su propia etiqueta <strong>img</strong> pero para que funcione necesita del atributo <strong>src</strong> el cual contiene la ruta del archivo o el url de la imagen que se quiere desplegar.</p>
+        <img src="../img/img1.jpg" width="700px" height="500px" alt="paisaje de colombia">
+        <h2>Atributos adicionales</h2>
+        <ul style="text-align:start;">
+            <li style="color: aqua; font-size: 22px;">alt: si por algún motivo la imagen no es cargada por el navegador, el atributo alt nos permite definir un texto alternativo que se colocará en lugar de la imagen.</li>
+            <li style="color: orange; font-size: 0.7cm;">Especifica el ancho de la imagen.</li>
+            <li style="color: purple; font-size: 2em;">Especifica la altura de la imagen</li>
+        </ul>
+        <h2>Ejemplo de imágen con URL</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Tigress_at_Jim_Corbett_National_Park.jpg/250px-Tigress_at_Jim_Corbett_National_Park.jpg" alt="imagen de un tigre" style="width: 270px; height: 300px;">
+        <h2>Ejemplo de imágen usando el atributo title</h2>
+        <img src="../img/img2.jpg" alt="paisaje de colombia" width="500px" height="400px" title="Hay 3 estatuas">
+        <h2>Ejemplo de imágen hecho por Edwin</h2>
+        <img src="../img/img3.jpg" alt="Hay café colombiano." style="width: 300px;" title="Café de Colombia">
+        <h2 style="font-size: 2em;">Videos en HTML(HyperText Markup Language)</h2>
+        <p>Los videos se representan con la etiqueta <strong>video</strong> la cual nos ayuda a visualizar de forma correcta el video que le especifiquemos.</p>
+        <video src="../videos/video1.mp4" width="600px" controls></video>
+        <h2>Ejemplo 2</h2>
+        <video src="../videos/video2.mp4" width="600px" controls></video>
+        <h2>Ejemplo 3</h2>
+        <video src="../videos/video3.mp4" width="600px" controls></video>
     </body>
 </html>
