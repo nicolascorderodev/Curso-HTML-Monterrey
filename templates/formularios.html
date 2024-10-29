@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formularios</title>
+</head>
+    <body style="margin: 0;">
+        <h1 style="margin: 0;">Formularios en HTML(HyperText Markup Language)</h1>
+        <form action="/" method="post">
+            <label for="usuario">Usuario: </label>
+            <input type="text" id="usuario" name="usuario" placeholder="Ingresa tu usuario"><br>
+            <label for="pwd">Contraseña: </label>
+            <input type="password" name="pwd" id="pwd"><br>
+            <label>Sexo: </label>
+            <label for="hombre">Hombre</label>
+            <input type="radio" name="sexo" id="hombre" value="hombre">
+            <label for="mujer">Mujer</label>
+            <input type="radio" name="sexo" id="mujer" value="mujer"><br>
+            <label for="pais">País: </label>
+            <select name="pais" id="pais">
+                <option>Estados Unidos</option>
+                <option>Canadá</option>
+                <option>México</option>
+                <option>Otro</option>p
+            </select><br>
+            <label for="terminos">Aceptas los términos</label>
+            <input type="checkbox" name="terminos" id="terminos" value="aceptar"><br>
+            <input type="submit" value="Enviar!"><br>
+            <input type="date"><br>
+            <input type="email" name="email" id="email" placeholder="Email"><br>
+            <input type="file">
+        </form>
+    </body>
+</html>
