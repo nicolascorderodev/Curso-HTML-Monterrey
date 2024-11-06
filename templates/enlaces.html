@@ -35,16 +35,69 @@
         <a href="#h1-principal">Me lleva al titulo principal de la pagina</a>
         <hr color="black">
         <h2 style="margin: 0;">TEMA 13: OTROS ELEMENTOS</h2>
-        <p></p>
+        <p>Practicamente ya sabemos todos los elementos necesarios para construir una pagina web, en esta sección vamos a mirar otros elementos <strong>html</strong> útiles: iframes, tablas y spans. También aprenderás sobre las entidades, que sirven para agregar caracteres especiales a tu código.</p>
+        <h3 style="margin: 0;">Iframes</h3>
+        <p style="margin: 0;">Los iframes se pueden visualizar como un marco que contiene otra página web tanto interna como externa a nuestro sitio, se debe hacer uso de la etiqueta <strong>iframe</strong> y el atributo src y se pueden agregar los atributos width y height para modificar ancho y alto.</p>
+        <h4 style="margin: 0;">Iframe externo a otra Web</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/w16TuMy5Zbo?si=BMA1MvQYWHQ2BLjh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>
+        <br>
+        <h4 style="margin: 0;">Iframe interno a un archivo local</h4>
+        <iframe src="imagenes.html" width="600px" height="400px"></iframe>
+        <h3 style="margin: 0;">Tablas</h3>
+        <p style="margin: 0;">Se define con la etiqueta <strong>table</strong> donde esta misma nos permite organizar contenido en columnas y filas. Se utilizan las etiquetas <strong>tr para definir filas, th para definir encabezados de tablas y td para definir celdas normales.</strong> A continuación un pequeño ejemplo: </p>
+        <style>
+            table{
+                border: solid;
+                border-collapse: collapse;
+                text-align: center;
+            }
+            tr, td, th{
+                border: 3px solid black;
+            }
+            th{
+                background-color: brown;
+            }
+            td{
+                background-color: pink;
+            }
+            .nombres{
+                background-color: aqua;
+            }
+            .apellidos{
+                background-color: yellow;
+            }
+            .edades{
+                background-color: tomato;
+            }
+        </style>
+        <table style="width: 100%;"><!--Definir tabla-->
+            <tr><!--Definir filas-->
+                <th>Nombre</th><!--Definir encabezados de tablas-->
+                <th>Apellido</th>
+                <th>Edad</th>
+            </tr>
+            <tr>
+                <td class="nombres"">Luis</td><!--Definir celdas normales-->
+                <td class="apellidos">Zarate</td>
+                <td class="edades">20</td> 
+            </tr>
+            <tr>
+                <td class="nombres">Claudia</td>
+                <td class="apellidos">Borjas</td>
+                <td class="edades">25</td>
+            </tr>
+            <tr>
+                <td class="nombres">Edwin</td>
+                <td class="apellidos">Arias</td>
+                <td class="edades">20</td>
+            </tr>
+        </table>
         <hr color="black">
         <h2 style="margin: 0;">TEMA 14: SPANS Y ENTIDADES</h2>
         <p></p>
         <hr color="black">
         <h2 style="margin: 0;">EJERCICIO FINAL HTML</h2>
         <p></p>
-
-        <div style="width: 200px; height: 200px; padding: 20px; border: 20px solid transparent; margin: 20px; background-color: pink;">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aperiam adipisci eum neque at sequi esse hic alias numquam asperiores cum perspiciatis, reprehenderit, nulla doloribus facere illo cupiditate debitis sit.</p>
-        </div>
     </body>
 </html>
